@@ -6,12 +6,12 @@
 This mini project explores two generative models GPT-2 (small) and Char-RNN to investigate their creativity and bias by investigating philosophical discussions on ethics and accoubtability in the AI technologies domain. The first step is to fine tune GPT-2 (small) model on a pre-processed textbook “Oxford Handbook of Ethics of AI” and uses this refined model to generate new content and save them for the next training cycle. The second step is to incoperate GPT-2 (small)-generated content (through the question) into cleaned texbook document and implement Char-RNN model to further create artificial content about ethics. 
 
 ## Dataset
-The original dataset is [The Oxford Handbook of Ethics of AI](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190067397.001.0001/oxfordhb-9780190067397). For more information, please check [data folder](https://git.arts.ac.uk/21036265/ExploringMachineIntelligence/tree/main/data). 
+The original dataset is [The Oxford Handbook of Ethics of AI](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190067397.001.0001/oxfordhb-9780190067397). For more information, please check [data folder](https://github.com/Yifan-FENG/machineintelligence-ual/tree/main/data). 
 
-The original input source is downloaded as PDF file and converted into plain text file. In the first part of GPT-2 notebook, several data cleaning methods are introduced to re-format input file. Please check [Coding_Three_Part_One.ipynb](https://git.arts.ac.uk/21036265/ExploringMachineIntelligence/blob/main/Coding_three_part_one.ipynb). 
+The original input source is downloaded as PDF file and converted into plain text file. In the first part of GPT-2 notebook, several data cleaning methods are introduced to re-format input file. Please check [Coding_Three_Part_One.ipynb](https://github.com/Yifan-FENG/machineintelligence-ual/blob/main/Coding_three_part_one.ipynb). 
 
 ## Training Process & Evaluation 
-This Char-RNN/GPT-2(small) text generation starts from examining results after 20 epochs on an M1-Pro Macbook (approx. 50 mins). For detailed implementation & evaluation, please read <em>**[Coding3 technical report](https://git.arts.ac.uk/21036265/ExploringMachineIntelligence/blob/main/Coding3_report_YifanFENG.pdf)**.</em>
+This Char-RNN/GPT-2(small) text generation starts from examining results after 20 epochs on an M1-Pro Macbook (approx. 50 mins). For detailed implementation & evaluation, please read <em>**[Coding3 technical report](https://github.com/Yifan-FENG/machineintelligence-ual/blob/main/Coding3_report_YifanFENG.pdf)**.</em>
 
 ## Interactive Exploration 
 For interactive technical prototype on Google Colab, please go to [Coding3_PartOne](https://colab.research.google.com/drive/1NPteSsCJ89l697_ztAmcLCU_pGGjzvi5?usp=sharing) and [Coding3_PartTwo](https://colab.research.google.com/drive/1l3z4I9KehQgtLqnOCSWH3m6II_xshuiF?usp=sharing).
